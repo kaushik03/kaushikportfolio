@@ -1472,6 +1472,7 @@ h3 {
   width: 724px;
   height: 767px;
   content: '';
+  opacity: 0.5;
 }
 
 @media (max-width: 767px) {
