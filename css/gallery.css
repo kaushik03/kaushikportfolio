@@ -4,7 +4,9 @@
   
   body {
     background-color: #f1f1f1;
-    font-family: Arial;
+    font-family: "Muli", sans-serif;
+    font-weight: normal;
+    font-style: normal;
   }
   
   /* Center website */
@@ -12,14 +14,29 @@
     max-width: 1000px;
     margin: auto;
   }
-  
-  h1 {
-    font-size: 50px;
-    word-break: break-all;
-  }
-  
   .row {
     margin: 8px -16px;
+  }
+  .img {
+    max-width: 100%;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+  }
+
+
+  p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    color: #4D4D4D;
+    margin-bottom: 13px;
+    font-family: "Muli", sans-serif;
+  }
+
+  li {
+    list-style: lower-roman;
   }
   
   /* Add padding BETWEEN each column (if you want) */
